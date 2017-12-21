@@ -181,6 +181,7 @@ function displayToc(filter) {
    var tocTable = '';
    var tocHead1 = 'POST TITLE';
    var tocTool1 = 'Click to sort by title';
+   var tocHead2 = 'POST DATE';
    var tocTool2 = 'Click to sort by date';
    var tocHead3 = 'LABELS';
    var tocTool3 = '';
@@ -265,5 +266,5 @@ function hideToc() {
   var tocdiv = document.getElementById("toc");
   tocdiv.innerHTML = '';
   var toclink = document.getElementById("toclink");
-  toclink.innerHTML = '<a href="#" onclick="scroll(0,0); showToc(); Effect.toggle('+"'toc-result','blind');"+'">» Show Table of Contents</a> <img src="http://chenkaie.blog.googlepages.com/new_1.gif"/>';
+  toclink.innerHTML = '<a href="#" onclick="scroll(0,0); showToc(); Effect.toggle('+"'toc-result','blind');"+'">Â» Show Table of Contents</a> <img src="http://chenkaie.blog.googlepages.com/new_1.gif"/>';
 }
